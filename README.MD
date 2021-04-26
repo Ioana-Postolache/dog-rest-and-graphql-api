@@ -1,4 +1,10 @@
 # Dogs REST API
+Value of  JDBC route from src/main/resources/application.properties:
+```spring.datasource.url=jdbc:h2:mem:dogdata```
+H2 console enabled with:
+```spring.h2.console.enabled=true```
+Path to h2:
+```spring.h2.console.path=/h2```
 ![connect_to_h2](src/main/resources/static/images/Dogs-%20connect_to_h2.png)
 ![run query in h2](src/main/resources/static/images/Dogs%20-%20run%20query.png)
 ![GET dogs](src/main/resources/static/images/Dogs%20-%20getDogs.png)
