@@ -1,6 +1,7 @@
 package com.udacity.bootstrap.repository;
 
 import com.udacity.bootstrap.entity.Dog;
+import org.hibernate.annotations.SQLDelete;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
@@ -15,4 +16,5 @@ public interface DogRepository extends CrudRepository<Dog, Long> {
 
     @Query("select d.id, d.name from Dog d")
     List<String> findDogNames();
+
 }
