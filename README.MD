@@ -5,7 +5,7 @@ H2 console enabled with:
 ```spring.h2.console.enabled=true```
 Path to h2:
 ```spring.h2.console.path=/h2```
-
+There is no password, just login.
 ![connect_to_h2](src/main/resources/static/images/Dogs-%20connect_to_h2.png)
 ![run query in h2](src/main/resources/static/images/Dogs%20-%20run%20query.png)
 ## REST API
@@ -16,3 +16,6 @@ Path to h2:
 ## GRAPHQL
 ![query](src/main/resources/static/images/Dogs%20-%20graphQL%20query.png)
 ![mutation](src/main/resources/static/images/Dogs%20-%20graphQL%20mutation.png)
+
+## MICROSERVICES
+Only the entity and repository folders are needed for microservices
