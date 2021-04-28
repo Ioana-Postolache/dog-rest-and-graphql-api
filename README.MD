@@ -19,3 +19,6 @@ There is no password, just login.
 
 ## MICROSERVICES
 Only the entity and repository folders are needed for microservices. Check more info [in the parent project](https://github.com/Ioana-Postolache/dogs-multi-modules#readme)
+
+## Basic auth
+![Basic auth](src/main/resources/static/images/Spring%20Security%20-%20Basic%20Auth.png)
