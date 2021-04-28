@@ -18,4 +18,4 @@ There is no password, just login.
 ![mutation](src/main/resources/static/images/Dogs%20-%20graphQL%20mutation.png)
 
 ## MICROSERVICES
-Only the entity and repository folders are needed for microservices
+Only the entity and repository folders are needed for microservices. Check more info [in the parent project](https://github.com/Ioana-Postolache/dogs-multi-modules#readme)
