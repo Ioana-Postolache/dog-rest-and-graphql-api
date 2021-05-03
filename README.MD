@@ -22,3 +22,7 @@ Only the entity and repository folders are needed for microservices. Check more 
 
 ## Basic auth
 ![Basic auth](src/main/resources/static/images/Spring%20Security%20-%20Basic%20Auth.png)
+
+## Swagger UI
+Swagger available at: http://localhost:8762/swagger-ui/index.html
+![Added swagger](src/main/resources/static/images/Swagger-UI.png)
